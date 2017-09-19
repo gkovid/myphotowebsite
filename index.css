@@ -1,0 +1,61 @@
+.container-fluid {
+	padding: 0px;
+}
+
+.row {
+	margin: 0px;
+}
+
+.navbar-nav {
+	width: 100%;
+}
+
+.navbar-nav > li {
+	width: 20%;
+}
+
+.navbar-nav > li > a {
+	text-align: center;
+}
+
+.navbar-header {
+	display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-header {
+    	display: inline;
+    }
+    .navbar-nav > li {
+    	width: 100%;
+    }
+}
+
+#first {
+	width: 100%;
+	background-color: red;	
+}
+
+#second {
+	width: 100%;
+	background-color: green;
+}
+
+#third {
+	width: 100%;
+	background-color: blue;	
+}
+
+#fourth {
+	width: 100%;
+	background-color: yellow;
+}
+
+#fifth {
+	width: 100%;
+	background-color: orange;
+}
+
+body {
+	margin: 0px;
+}
